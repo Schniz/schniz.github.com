@@ -6,7 +6,7 @@
         </title><!-- Bootstrap -->
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="css/bootstrap.min.css" rel="stylesheet" media="screen" type="text/css">
-        <link href="http://fonts.googleapis.com/css?family=Roboto+Condensed:400italic,400,300,700|Raleway:200" rel="stylesheet" type="text/css">
+        <link href="http://fonts.googleapis.com/css?family=Roboto+Condensed:400italic,400,300,700|Raleway:200,700" rel="stylesheet" type="text/css">
         <style type="text/css">
         hr {
           display:block;
@@ -18,7 +18,7 @@
           display: block;
           font-size: 15px;
           margin: auto;
-          color: rgba(0,0,0,0.3);
+          color: rgba(0,0,0,0.6);
           text-align: center;
           font-family: 'Raleway', sans-serif;
           font-weight: 200;
@@ -26,7 +26,7 @@
         }
 
         hr.bright::after {
-          color: rgba(190,190,190,0.2);
+          color: rgba(190,190,190,0.4);
         }
 
         .who-am-i h1 {
@@ -36,6 +36,49 @@
 
         .nowrap {
           white-space: nowrap;
+        }
+
+        .list-what-i {
+          height:100px;
+          display: table;
+        }
+
+        .list-what-i .title {
+          display: table-cell;
+          vertical-align: middle;
+          padding: 0 34px 0 0;
+          font-weight: bold;
+          font-family: 'Roboto Condensed';
+          font-size: 140%;
+          white-space: nowrap;
+        }
+
+        .list-what-i .title::after {
+          content: '{';
+          display: inline;
+          font-size: 70px;
+          vertical-align: middle;
+          position: relative;
+          top: -8px;
+          left: 3px;
+          color: rgba(0,0,0,0.5);
+          font-weight: 100;
+          font-family: 'Roboto Condensed';
+        }
+
+        .list-what-i .list-unstyled {
+          margin-bottom: 0;
+          position: relative;
+        }
+
+        .list-what-i .list-unstyled li {
+          margin-bottom: 8px;
+        }
+        .list-what-i .list-unstyled li::before {
+          content: '☺';
+          font-size:20px;
+          position: absolute;
+          left: -22px;
         }
         </style>
     </head>
@@ -52,10 +95,22 @@
                 <h3>
                     I make the web fascinating. no jokes.
                 </h3>
-                <hr>
+                <hr />
                 <p>
-                    Whats up guys?!
+                  <div class="list-what-i">
+                    <h2 class="title">
+                      What I do
+                    </h2>
+                    <ul class="list-unstyled">
+                      <li>Awesome server-side API</li>
+                      <li>Fantastic client-side applications</li>
+                      <li>Fresh web design</li>
+                      <li>Programming</li>
+                      <li>Music. OH YES.</li>
+                    </ul>
+                  </div>
                 </p>
+                <hr />
                 <div class="clearfix"></div>
             </div>
         </div>
