@@ -3967,3 +3967,23 @@ hr::after {
 .dark .list-what-i ul li::before {
   color: rgba(190, 190, 190, 0.4);
 }
+.navbar .brand {
+  background-image: url('img/gal_head_tiny.png');
+  background-repeat: no-repeat;
+  background-position: 6px center;
+  padding-left: 40px;
+  font-family: Ubuntu;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 40px;
+  text-rendering: optimizeLegibility;
+}
+.navbar li {
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+.navbar li.active {
+  font-size: 120%;
+}

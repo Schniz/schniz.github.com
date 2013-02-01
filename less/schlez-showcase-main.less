@@ -117,3 +117,25 @@ hr {
     }
   }
 }
+
+.navbar {
+  .brand {
+    background-image: url('img/gal_head_tiny.png');
+    background-repeat: no-repeat;
+    background-position: 6px center;
+    padding-left: 40px;
+    font-family: Ubuntu;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 40px;
+    text-rendering: optimizeLegibility;
+  }
+
+  li {
+    .transition(all 0.3s ease);
+
+    &.active { 
+      font-size: 120%;
+    }
+  }
+}

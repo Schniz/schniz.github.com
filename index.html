@@ -3,16 +3,38 @@
     <head>
         <title>
             Schlez Showcase
-        </title><!-- Bootstrap -->
+        </title>
+
+        <!-- Bootstrap -->
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="css/bootstrap.min.css" rel="stylesheet" media="screen" type="text/css">
+        <link href="css/bootstrap.responsive.min.css" rel="stylesheet" media="screen" type="text/css">
         <link href="http://fonts.googleapis.com/css?family=Roboto+Condensed:400italic,400,300,700|Raleway:200,700|Ubuntu:300italic,400italic,700italic" rel="stylesheet" type="text/css">
     </head>
-    <body style="zoom: 1;" screen_capture_injected="true">
+    <body style="zoom: 1; padding-top: 40px;" data-spy="scroll" data-target=".navbar" screen_capture_injected="true">
         <div class="header">
-            <header></header>
+            <header>
+              <div class="navbar navbar-fixed-top navbar-inverse">
+                <a class="brand" href="#" style="background-image: url('img/gal_head_tiny.png'); background-repeat: no-repeat; backgroun-position: 10px 20px; padding-left: 40px">Schlez</a>
+                  <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                  </a>
+
+                  <div class="nav-collapse collapse">
+                <ul class="nav">
+                    <li class="active"><a href="#greetings">Greetings</a></li>
+                    <li><a href="#believes">Believes</a></li>
+                    <li><a href="#comfy">Tech. stuff</a></li>
+                    <li><a href="#sites">Customers</a></li>
+                </ul>
+                </div>
+              </div>
+
+            </header>
         </div>
-        <div class="jumbotron " style="border-radius:0; margin-bottom: 0; background-color: rgb(225, 228, 240); background-image: url('http://subtlepatterns.subtlepatterns.netdna-cdn.com/patterns/kindajean.png'); margin-bottom: 0;">
+        <div id="greetings" class="jumbotron " style="border-radius:0; margin-bottom: 0; background-color: rgb(225, 228, 240); background-image: url('http://subtlepatterns.subtlepatterns.netdna-cdn.com/patterns/kindajean.png'); margin-bottom: 0;">
             <div class="who-am-i row">
               <div class="span3">
                 <img src="img/gal_head.png">
@@ -40,7 +62,7 @@
               </div>
             </div>
         </div>
-        <div class="jumbotron dark" style=" border-radius:0; margin-bottom: 0; background-color: rgb(225, 228, 240); background-image: url('http://subtlepatterns.subtlepatterns.netdna-cdn.com/patterns/black_lozenge.png');">
+        <div id="believes" class="jumbotron dark" style=" border-radius:0; margin-bottom: 0; background-color: rgb(225, 228, 240); background-image: url('http://subtlepatterns.subtlepatterns.netdna-cdn.com/patterns/black_lozenge.png');">
             <div class="who-am-i row">
               <div class="span3 pull-right">
                   <img src="img/gal_head2.png" class="pull-right">
@@ -66,7 +88,7 @@
               </div>
             </div>
         </div>
-        <div class="jumbotron" style=" border-radius:0; margin-bottom: 0; background-color: rgb(225, 228, 240); background-image: url('http://subtlepatterns.subtlepatterns.netdna-cdn.com/patterns/debut_light.png')">
+        <div id="comfy" class="jumbotron" style=" border-radius:0; margin-bottom: 0; background-color: rgb(225, 228, 240); background-image: url('http://subtlepatterns.subtlepatterns.netdna-cdn.com/patterns/debut_light.png')">
             <div class="who-am-i row">
               <div class="span3">
                   <img src="img/gal_head3.png" class="pull-right">
@@ -115,7 +137,7 @@
               </div>
             </div>
         </div>
-        <div class="jumbotron dark" style=" border-radius:0; margin-bottom: 0; background-color: rgb(225, 228, 240); background-image: url('http://subtlepatterns.subtlepatterns.netdna-cdn.com/patterns/stressed_linen.png')">
+        <div id="sites" class="jumbotron dark" style=" border-radius:0; margin-bottom: 0; background-color: rgb(225, 228, 240); background-image: url('http://subtlepatterns.subtlepatterns.netdna-cdn.com/patterns/stressed_linen.png')">
             <div class="who-am-i row">
           <h1>Some websites</h1>
           <h3>i just want to show off a bit.</h3>
@@ -144,7 +166,8 @@
         </div>
         <div class="footer container text-center" style="padding: 5px">
           <small><span class="nowrap">All rights reserved to <strong>Gal Schlezinger</strong>.</span> <span class="nowrap">Illustration by <strong>Itamar Erlichman</strong>.</nowrap></small>
-        </div><!-- <script src="http://code.jquery.com/jquery-latest.js"></script> -->
-        <!-- <script src="js/bootstrap.min.js"></script> -->
+        </div><script src="http://code.jquery.com/jquery-latest.js"></script>
+        <script src="js/bootstrap-scrollspy.js"></script>
+        <script src="js/bootstrap-collapse.js"></script>
     </body>
 </html>
