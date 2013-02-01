@@ -3930,7 +3930,7 @@ hr.bright::after {
   position: relative;
   top: -8px;
   left: 3px;
-  color: rgba(0, 0, 0, 0.5);
+  color: rgba(0, 0, 0, 0.6);
   font-weight: 100;
   font-family: 'Roboto Condensed';
 }
@@ -3944,9 +3944,11 @@ hr.bright::after {
   margin-bottom: 8px;
 }
 .list-what-i ul li::before {
-  content: '☺';
-  font-weight: bold;
-  font-size: 20px;
+  content: "\e127";
+  font-family: 'Glyphicons Halflings';
+  font-style: normal;
+  font-size: 18px;
   position: absolute;
-  left: -22px;
+  left: -24px;
+  color: rgba(0, 0, 0, 0.6);
 }
