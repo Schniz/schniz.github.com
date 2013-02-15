@@ -4,13 +4,9 @@ schniz.github.com
 Just a site for making people know me as a programmer.
 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$!!!!!!!!!!!!!
 
-= Tech's =
+Tech's
+------
 - Bootstrap 3.0.0
 - Less
 - CSS 3 stuff. trying to be awesome.
 - some graphics by Itamar Erlichman. yes.
-
-= TODO =
-- [ ] Build the mothefucking site
-- [ ] Link those screenshots
-- [ ] Fix the Phone view bug.
